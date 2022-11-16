@@ -112,6 +112,8 @@ p {
     }
 }
 
+// HERO SECTION STYLING
+
 .hero{
     position: relative;
     background: none;
@@ -122,6 +124,7 @@ p {
         .intro{
             // display: flex;
             flex-direction: column;
+            margin-bottom: 100px;
             
             h1 {
                 margin: 10px 0;
@@ -131,6 +134,8 @@ p {
             p {
                 margin: 10px 0;
                 text-align: left;
+                width: 80%;
+
             }
 
             .primary-btn {
@@ -152,6 +157,7 @@ p {
                     box-shadow: 3px 10px 30px rgba(0, 0, 0, 0.062);
                     width: unset;
                     // transition: all .1s ease;
+                    
 
                     span{
                         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -162,10 +168,13 @@ p {
                     p{
                         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                         margin: 0;
+                        width: unset;
                     }
                     hr {
                         width: 20%;
                         margin: 15px 0;
+                        border: 1px solid rgb(176, 176, 176);
+                        border-radius: 5px;
                     }
                 }
 
@@ -256,6 +265,8 @@ p {
                     hr {
                         width: 20%;
                         margin: 15px 0;
+                        background-color: gray;
+                        border: none;
                     }
                 }
 
@@ -299,3 +310,6 @@ p {
     }
 
 }
+
+// PROCESS SECTION STYLING
+

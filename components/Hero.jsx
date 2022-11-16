@@ -38,13 +38,13 @@ const Hero = () => {
     <div className='hero'>
         <div className="container sect-wrap">
             <div className="intro desktop">
-                <h1>WE DRIVE ORGANIC TRAFFIC, SALES AND LEADS <br />USING<span style={{color: '#06AA4D'}}> SEARCH ENGINE OPTIMIZATION</span></h1>
+                <h1>WE DRIVE ORGANIC TRAFFIC, SALES AND LEADS USING<span style={{color: '#06AA4D'}}> SEARCH ENGINE OPTIMIZATION</span></h1>
 
                 <p>
                     We will increase you website traffic and Improve 
-                    your conversions using SEO, <br /> that way you rely 
+                    your conversions using SEO, that way you rely 
                     less on paid advertising and you have a new 
-                    channel for generating revenue for your business.
+                    channel (with 0 recurring cost) generating revenue for your business.
                 </p>
 
                 <PrimaryBtn text='Book a call' backColor = '#1A1A1A' link='empty' />

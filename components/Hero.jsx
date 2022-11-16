@@ -24,14 +24,14 @@ const Hero = () => {
   }, [])
 
   const salesDivStyle = {
-    top: `${-50 + (scrollPos / 3)}px`
+    top: `${50 + (scrollPos / 3)}px`
   }
   const mrrDivStyle = {
-    top: `${-180 + (scrollPos / 2)}px`
+    top: `${150 + (scrollPos / 2)}px`
   }
   
   const trafficDivStyle = {
-    top: `${-120 + (scrollPos / 4)}px`
+    top: `${165 + (scrollPos / 4)}px`
   }
   
   return (

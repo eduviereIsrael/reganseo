@@ -2,6 +2,7 @@ import '../styles/globals.css'
 import '../styles/index.scss'
 import '../styles/navbar.scss'
 import '../styles/pri-btn.scss'
+import '../styles/servcard.scss'
 import { Layout } from '../components'
 
 

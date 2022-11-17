@@ -4,7 +4,7 @@ import React from 'react'
 
 const ServCard = (props) => {
   return (
-    <div>
+    <div className='serv-card'>
         <img src={props.img} alt={props.title} />
         <h5>{props.title}</h5>
         <p>{props.text}</p>

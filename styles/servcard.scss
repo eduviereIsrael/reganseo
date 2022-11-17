@@ -1,0 +1,23 @@
+.serv-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 55px;
+
+
+    img {
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    h5 {
+        margin-bottom: 5px;
+    }
+
+    p {
+        font-size: 15px;
+        
+    }
+}

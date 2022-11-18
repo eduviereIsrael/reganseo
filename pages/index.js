@@ -11,7 +11,7 @@ export default function Home() {
       <Head>
         <title>Regan: We Help Businesses Generate Revenue With SEO</title>
         <meta name="description" content="Let us help you drive the conversations that lead to more revenue for your business" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo.svg" />
       </Head>
 
       <main>

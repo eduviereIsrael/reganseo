@@ -1,9 +1,13 @@
 .serv-card{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: flex-start;
     margin-bottom: 55px;
+
+    @media screen and (min-width: 768px) {
+        align-items: flex-start;
+    }
 
 
     img {

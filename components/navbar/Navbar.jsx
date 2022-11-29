@@ -83,7 +83,7 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className="nav-cta">
-                  <PrimaryBtn backColor='black' link="" text="Book a call"/>
+                  <PrimaryBtn backColor='black' link="https://calendly.com/eduviereisrael/one-on-one" text="Book a call"/>
                 </div>
             </div>
         </div>

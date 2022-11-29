@@ -47,7 +47,7 @@ const Hero = () => {
                     channel (with 0 recurring cost) generating revenue for your business.
                 </p>
 
-                <PrimaryBtn text='Book a call' backColor = '#1A1A1A' link='empty' />
+                <PrimaryBtn text='Book a call' backColor = '#1A1A1A' link='https://calendly.com/eduviereisrael/one-on-one' />
 
                 <div className="reports">
                     <div className="sales" style={salesDivStyle}>

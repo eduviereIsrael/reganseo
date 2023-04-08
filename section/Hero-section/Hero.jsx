@@ -5,7 +5,7 @@ import React from 'react'
 const Hero = () => {
   return (
     <div className='hero'>
-        <img src="/hero-img.png" alt="" />
+        <img src="/hero-img.webp" alt="" />
       <div className='left'>
         <div className="hero-text">
           <div></div>

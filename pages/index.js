@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image';
-import {CaseStudy, Hero} from "../section"
+import {CaseStudy, Hero, Services} from "../section"
 
 
 export default function Home() {
@@ -15,6 +15,7 @@ export default function Home() {
       <main>
         <Hero />
         <CaseStudy />
+        <Services />
         
       </main>
 

@@ -51,7 +51,7 @@ const CaseStudy = () => {
   return (
     <div className='case-study'>
         <div className="container">
-            <div className="left">1 - 5</div>
+            <div className="left">1 - 3</div>
             <div className="right">
                 <h2>CASE STUDIES</h2>
                 <div className="case-study-div">

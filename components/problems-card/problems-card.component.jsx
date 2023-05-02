@@ -1,12 +1,15 @@
 import React from 'react'
+import { Index, ProblemTitle, ProblemsCard } from './problems-card.styles'
 
-const Problems = ({problem}) => {
+const ProblemCard = ({problem}) => {
+    const {title, text} = problem
   return (
-    <div>
-        <span>{problem.index + 1}</span>
-        p
-    </div>
+    <ProblemsCard>
+        <Index>{problem.index + 1}</Index>
+        <ProblemTitle>{title}</ProblemTitle>
+        <p>{text}</p>
+    </ProblemsCard>
   )
 }
 
-export default Problems
+export default ProblemCard

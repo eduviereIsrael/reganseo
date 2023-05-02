@@ -62,7 +62,7 @@ export const ServicesDiv = styled.div`
     align-items: flex-start;
     flex-direction: column;
     justify-content: space-between;
-    margin-bottom: -100px;
+    margin-bottom: -50px;
     transform: translateY(200px);
 
     p{
@@ -71,5 +71,7 @@ export const ServicesDiv = styled.div`
 
     @media screen and (min-width: 768px){
       flex-direction: row;
+      margin-bottom: -100px;
+
     }
 `;

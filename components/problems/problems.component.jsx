@@ -1,5 +1,6 @@
 import React from 'react'
 import { ProblemsContainer, ProblemsDiv, ProblemsIntro } from './problems.styles'
+import ProblemCard from '../problems-card/problems-card.component'
 
 const problems = [
     {
@@ -28,7 +29,10 @@ const Problems = () => {
             <p>We bring solutions that addresses the following critical obstacles that are hindering business expansion and longevity.</p>
         </ProblemsIntro>
         <ProblemsContainer>
-            
+            {problems.map((problem, index) => {
+                const item = {...problem, index: index}
+                return <ProblemCard key = {index} problem = {item} />
+            })}
         </ProblemsContainer>
     </ProblemsDiv>
   )

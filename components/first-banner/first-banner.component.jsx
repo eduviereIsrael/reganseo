@@ -12,10 +12,10 @@ const FirstBanner = () => {
             <p>According to google themselves, the first page of search results gets 99% of all the traffic.</p>
             <SecondaryButton href="/">Get Started</SecondaryButton>
             <TopStroke>
-                <motion.img src="/first-banner-stroke.svg" alt="" initial={{scale: 0.8}} whileInView={{scale: 1}} transition={{duration: 0.5}}/>
+                <motion.img src="/first-banner-stroke.svg" alt="" initial={{scale: 0.5}} whileInView={{scale: 1}} transition={{duration: 0.3}}/>
             </TopStroke>
             <BottomStroke>
-                <motion.img src="/first-banner-stroke.svg" alt="" initial={{scale: 0.8}} whileInView={{scale: 1}} transition={{duration: 0.5}}/>
+                <motion.img src="/first-banner-stroke.svg" alt="" initial={{scale: 0.5}} whileInView={{scale: 1}} transition={{duration: 0.3}}/>
             </BottomStroke>
         </Banner>
     </BannerSection>

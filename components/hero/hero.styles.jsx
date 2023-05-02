@@ -38,7 +38,7 @@ export const Intro = styled.div`
     align-items: flex-start;
     justify-content: space-between;
     width: 100%;
-    margin-bottom: 70px;
+    margin-bottom: 140px;
     padding: 150px 20px 0;
 
 
@@ -63,8 +63,12 @@ export const Intro = styled.div`
 
 export const ImageDiv = styled.div`
     width: 100%;
-    transform: skewY(10deg) translateY(-300px);
+    transform: skewY(10deg) translateY(-200px);
     position: relative;
+    @media screen and (min-width: 768px){
+    transform: translateY(-300px);
+
+    }
 
 `;
 

@@ -6,10 +6,14 @@ export const ServicesDetailsDiv = styled.div`
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 50%;
+    width: 100%;
+    margin-bottom: 60px;
 
     h2{
         margin-bottom: 10px;
+    }
+    @media screen and (min-width: 768px){
+      width: 50%;
     }
 `;
 
@@ -40,19 +44,28 @@ export const ServicesHead = styled.div`
     }
 `;
 
-
-export const ServicesDiv = styled.div`
-    width: 100%;
-    margin-top: 0px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    margin-bottom: 0px;
-`;
-
 export const ImageContainer = styled.div`
-    width: 35%;
+    width: 100%;
     img{
         width: 100%;
+    }
+    @media screen and (min-width: 768px){
+      flex-direction: row;
+      width: 35%;
+
+    }
+`;
+    
+export const ServicesDiv = styled.div`
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    transform: translateY(200px);
+
+    @media screen and (min-width: 768px){
+      flex-direction: row;
     }
 `;

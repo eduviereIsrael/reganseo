@@ -9,12 +9,14 @@ export const ProblemsDiv = styled.div`
     justify-content: space-between;
     margin-top: 200px;
     padding: 0 20px;
+    margin-bottom: 100px;
 
 
     @media screen and (min-width: 768px){
         flex-direction: row;
         justify-content: space-between;
         padding: 0 100px;
+
     }
 `;
 // @media screen and (min-width: 768px){

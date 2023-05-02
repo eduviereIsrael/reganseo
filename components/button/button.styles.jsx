@@ -12,16 +12,18 @@ const BaseButton = styled(Link)`
     text-decoration: none;
     border-radius: 3px;
     transition: all .3s ease;
+
+    
+    &:hover{
+        transform: translateY(-4px);
+
+    }
 `;
 
 export const PrimaryButton = styled(BaseButton)`
     color: ${THEME.colors.light1};
     background-color: ${THEME.colors.blue};
 
-    &:hover{
-        transform: translateY(-4px);
-
-    }
 `;
 
 export const SecondaryButton = styled(BaseButton)`

@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image';
 import Hero from '../components/hero/hero.component';
 import Problems from '../components/problems/problems.component';
+import FirstBanner from '../components/first-banner/first-banner.component';
 // import {CaseStudy, Hero, Services, ImageSection, About} from "../section"
 
 
@@ -17,6 +18,7 @@ export default function Home() {
       <main>
         <Hero />
         <Problems />
+        <FirstBanner />
       </main>
 
     </div>

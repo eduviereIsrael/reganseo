@@ -66,22 +66,18 @@ export const ImageDiv = styled.div`
     width: 100%;
 `;
 
+export const HeroSkew = styled.div`
+    transform: skewY(-4deg);
+    width: 100%;
+    background-color: ${THEME.colors.dark2};
+
+`
+
 export const HeroImg = styled.img`
     width: 100%;
-`
+`;
 
 
-export const PerksDiv = styled.div`
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-    margin-top: 100px;
 
-    @media screen and (min-width: 768px){
-      flex-direction: row;
-      
-    }
-    
-`
+
 

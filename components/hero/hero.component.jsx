@@ -1,27 +1,14 @@
-import React from 'react'
-import { PrimaryButton } from '../button/button.styles'
-import { HeroDiv, Intro, SubText, ImageDiv, MainText, PerksDiv, HeroImg } from './hero.styles'
-import PerksCard from '../perks-card/perks-card.component'
+import React from 'react';
+import { PrimaryButton } from '../button/button.styles';
+import { HeroDiv, Intro, SubText, ImageDiv, MainText, HeroImg, HeroSkew, } from './hero.styles';
+import Perks from '../perks/perks.component';
+import Services from '../services/services.component';
 
-const perks = [
-    {
-        icon: "/credibility-icon.svg",
-        title: "Credibility",
-        text: "Reach a new level of credibility by answering to your target audience at different stages in their buyers journey.",
-    },
-    {
-        icon: "/Visibility-icon.svg",
-        title: "Visibility",
-        text: "Our digital services are aimed at helping thousands of prospects get acquainted with your business, regularly.",
-    },
-    {
-        icon: "/opti-icon.svg",
-        title: "Optimization",
-        text: "We get it right once, and you get all the in-flow of cold traffic your business needs to thrive on the long run.",
-    },
-]
+
+
 
 const Hero = () => {
+
   return (
     <HeroDiv>
         <Intro>
@@ -35,14 +22,13 @@ const Hero = () => {
                 <PrimaryButton href="" >Get Started</PrimaryButton>
             </MainText>
         </Intro>
-        <ImageDiv>
-            <HeroImg src='/regan-hero.webp' />
-            <PerksDiv>
-                {perks.map((perk) => (
-                    <PerksCard key={perk.title} perk={perk} />
-                ))}
-            </PerksDiv>
-        </ImageDiv>
+        <HeroSkew>
+            <ImageDiv>
+                <HeroImg src='/regan-hero.webp' />
+                <Perks />
+                <Services />
+            </ImageDiv>
+        </HeroSkew>
     </HeroDiv>
   )
 }

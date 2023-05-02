@@ -8,6 +8,10 @@ export const PerksCardDiv = styled.div`
     width: 100%;
     margin-bottom: 70px;
 
+    p{
+        font-size: ${THEME.font.text};
+    }
+
     img{
         width: 45px;
         margin-bottom: 20px;

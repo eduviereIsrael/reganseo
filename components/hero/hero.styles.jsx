@@ -9,7 +9,9 @@ export const HeroDiv = styled.div`
     width: 100%;
 
     p{
-        color: ${THEME.colors.light3}
+        color: ${THEME.colors.light3};
+        font-size: ${THEME.font.text};
+
     }
 `;
 

@@ -14,6 +14,6 @@ export const THEME = {
         heading3: "40px",
         heading4: "28px",
         link: "15px",
-        text: "15px",
+        text: "13px",
     }
 }

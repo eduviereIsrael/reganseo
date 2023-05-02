@@ -7,11 +7,6 @@ export const HeroDiv = styled.div`
     align-items: flex-start;
     justify-content: flex-start;
     width: 100%;
-    padding: 150px 20px 0;
-
-    @media screen and (min-width: 768px){
-      padding: 150px 100px;
-    }
 
     p{
         color: ${THEME.colors.light3}
@@ -44,6 +39,8 @@ export const Intro = styled.div`
     justify-content: space-between;
     width: 100%;
     margin-bottom: 70px;
+    padding: 150px 20px 0;
+
 
     ${SubText}{
         margin-bottom: 50px;
@@ -51,6 +48,8 @@ export const Intro = styled.div`
 
     @media screen and (min-width: 768px){
       flex-direction: row;
+      padding: 150px 100px;
+
       ${SubText}{
         margin-bottom: 0px;
       }
@@ -64,12 +63,20 @@ export const Intro = styled.div`
 
 export const ImageDiv = styled.div`
     width: 100%;
+    transform: skewY(10deg) translateY(-300px);
+    position: relative;
+
 `;
 
 export const HeroSkew = styled.div`
-    transform: skewY(-4deg);
+    transform: skewY(-10deg);
     width: 100%;
     background-color: ${THEME.colors.dark2};
+    padding: 150px 20px;
+    @media screen and (min-width: 768px){
+      padding: 150px 100px;
+    }
+
 
 `
 

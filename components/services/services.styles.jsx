@@ -43,11 +43,11 @@ export const ServicesHead = styled.div`
 
 export const ServicesDiv = styled.div`
     width: 100%;
-    margin-top: 200px;
+    margin-top: 0px;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    margin-bottom: 200px;
+    margin-bottom: 0px;
 `;
 
 export const ImageContainer = styled.div`

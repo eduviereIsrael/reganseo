@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="63" height="63" viewBox="0 0 63 63">
+  <g id="opti-icon" transform="translate(-869 -1258.515)">
+    <g id="Group_23" data-name="Group 23" transform="translate(902.72 1277.566) rotate(45)">
+      <path id="Path_5" data-name="Path 5" d="M0,16.821V0L9.618,9.076V0" transform="translate(0 4.61)" fill="none" stroke="#fafafa" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_6" data-name="Path 6" d="M0,16.8V7.725L9.618,16.8V0" transform="translate(3.472 4.58)" fill="none" stroke="#fafafa" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_7" data-name="Path 7" d="M4.865,4.865H0V0Z" transform="translate(14.702 3.44) rotate(135)" fill="none" stroke="#fbfbfb" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+    <g id="Ellipse_5" data-name="Ellipse 5" transform="translate(869 1258.515)" fill="none" stroke="#fafafa" stroke-width="1">
+      <circle cx="31.5" cy="31.5" r="31.5" stroke="none"/>
+      <circle cx="31.5" cy="31.5" r="31" fill="none"/>
+    </g>
+  </g>
+</svg>

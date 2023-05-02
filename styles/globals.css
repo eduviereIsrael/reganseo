@@ -1,22 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  overflow-x: hidden;
+  font-family: Calibri, sans-serif;
   box-sizing: border-box;
-  background-color: #17181c;
+  background-color: #0d0e0e;
   width: 100%;
 }
 * {
   padding: 0;
   margin: 0;
-  overflow-x: hidden;
   box-sizing: border-box;
+  color: white;
+}
+h1,h2,h3 {
+  font-family: 'Playfair Display', serif;
 }
 
-.app {
-  overflow-y: auto;
-  /* background-color: red; */
+p{
+  font-family: Calibri, sans-serif;
 }

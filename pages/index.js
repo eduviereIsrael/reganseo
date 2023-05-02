@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image';
-import {CaseStudy, Hero, Services, ImageSection, About} from "../section"
+import Hero from '../components/hero/hero.component';
+// import {CaseStudy, Hero, Services, ImageSection, About} from "../section"
 
 
 export default function Home() {
@@ -14,10 +15,6 @@ export default function Home() {
 
       <main>
         <Hero />
-        <CaseStudy />
-        <Services />
-        <ImageSection />
-        <About />
       </main>
 
     </div>

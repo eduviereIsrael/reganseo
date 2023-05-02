@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="63" height="63" viewBox="0 0 63 63">
+  <g id="credibility-icon" transform="translate(-562 -1880.542)">
+    <g id="Group_18" data-name="Group 18" transform="translate(576.105 1901.931)">
+      <g id="Group_15" data-name="Group 15" transform="translate(0 14.47) rotate(-45)">
+        <g id="Group_14" data-name="Group 14" transform="translate(0 2.817)">
+          <line id="Line_10" data-name="Line 10" x2="14.961" transform="translate(0 3.277)" fill="none" stroke="#fafafa" stroke-width="1"/>
+          <line id="Line_11" data-name="Line 11" x2="14.961" transform="translate(0 0)" fill="none" stroke="#fafafa" stroke-width="1"/>
+        </g>
+        <path id="Path_4" data-name="Path 4" d="M6.3,6.3H0V0Z" transform="translate(16.008 8.911) rotate(-135)" fill="none" stroke="#fbfbfb" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Group_16" data-name="Group 16" transform="translate(13.4 14.47) rotate(-45)">
+        <g id="Group_14-2" data-name="Group 14" transform="translate(0 2.817)">
+          <line id="Line_10-2" data-name="Line 10" x2="14.961" transform="translate(0 3.277)" fill="none" stroke="#fafafa" stroke-width="1"/>
+          <line id="Line_11-2" data-name="Line 11" x2="14.961" transform="translate(0 0)" fill="none" stroke="#fafafa" stroke-width="1"/>
+        </g>
+        <path id="Path_4-2" data-name="Path 4" d="M6.3,6.3H0V0Z" transform="translate(16.008 8.911) rotate(-135)" fill="none" stroke="#fbfbfb" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+    </g>
+    <g id="Ellipse_4" data-name="Ellipse 4" transform="translate(562 1880.542)" fill="none" stroke="#fafafa" stroke-width="1">
+      <circle cx="31.5" cy="31.5" r="31.5" stroke="none"/>
+      <circle cx="31.5" cy="31.5" r="31" fill="none"/>
+    </g>
+  </g>
+</svg>

@@ -66,7 +66,7 @@ export const ImageDiv = styled.div`
     transform: skewY(10deg) translateY(-200px);
     position: relative;
     @media screen and (min-width: 768px){
-    transform: translateY(-300px);
+    transform: skewY(10deg) translateY(-300px);
 
     }
 

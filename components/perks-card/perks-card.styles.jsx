@@ -13,8 +13,7 @@ export const PerksCardDiv = styled.div`
         margin-bottom: 20px;
     }
 
-    h3{
-        font-size: ${THEME.font.heading4};
+    h4{
         margin-bottom: 5px;
     }
     

@@ -6,7 +6,7 @@ const PerksCard = ({perk}) => {
   return (
     <PerksCardDiv>
         <img src={icon} />
-        <h3>{title}</h3>
+        <h4>{title}</h4>
         <p>{text}</p>
     </PerksCardDiv>
   )

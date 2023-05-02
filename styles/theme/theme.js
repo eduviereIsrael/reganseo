@@ -12,7 +12,7 @@ export const THEME = {
         heading1: "67px",
         heading2: "60px",
         heading3: "40px",
-        heading4: "25px",
+        heading4: "28px",
         link: "15px",
         text: "15px",
     }

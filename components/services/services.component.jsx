@@ -77,17 +77,17 @@ const Services = () => {
   return (
     <ServicesDiv>
         <ServicesDetailsDiv>
-            <h2>THE NEXT LEVEL FOR YOUR BUSINESS IS JUST A FEW STEPS AWAY.</h2>
+            <motion.h2 initial={{opacity: 0, y: 15}} whileInView={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.2}} >THE NEXT LEVEL FOR YOUR BUSINESS IS JUST A FEW STEPS AWAY.</motion.h2>
             <ServicesContent>
                 <ServicesHead>
                     {services.map((service, indx) => <p onClick={() => handleServiceSwitch(indx)} style={{color: `${indx == index? THEME.colors.light1 : THEME.colors.light3 }`}} key={service.title}>{service.title}</p>)}
                 </ServicesHead>
-                <motion.p initial={{opacity: 0}} whileInView={{opacity: 1}} transition={{duration: 0.5}} style={{color: `#fff`}}>{services[index].text}</motion.p>
-                <motion.p initial={{opacity: 0}} whileInView={{opacity: 1}} transition={{duration: 0.5}} style={{color: THEME.colors.light3}}>{services[index].text2}</motion.p>
+                <motion.p  initial={{opacity: 0, y: 15}} whileInView={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.2}} style={{color: `#fff`, marginBottom: "8px"}}>{services[index].text}</motion.p>
+                <motion.p  initial={{opacity: 0, y: 15}} whileInView={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.2}} style={{color: THEME.colors.light3}}>{services[index].text2}</motion.p>
             </ServicesContent>
         </ServicesDetailsDiv>
         <ImageContainer>
-            <img src={services[index].image} />
+            <motion.img src={services[index].image} />
         </ImageContainer>
         {/* <h1>{timer}</h1> */}
     </ServicesDiv> 

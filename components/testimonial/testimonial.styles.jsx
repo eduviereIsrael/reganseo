@@ -26,7 +26,7 @@ export const TestinialDiv = styled.div`
     justify-content: center;
     padding: 50px;
     gap: 30px;
-    border: 2px solid ${THEME.colors.light3};
+    border: 2px dashed ${THEME.colors.light3};
     border-radius: 5px;
     margin-bottom: 400px;
 

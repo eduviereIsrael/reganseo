@@ -10,6 +10,7 @@ export const ProblemsCard = styled.div`
     border: 1px solid ${THEME.colors.light2};
     padding: 40px;
     width: 100%;
+    height: 100%;
     border-radius: 5px;
 
     p {

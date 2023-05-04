@@ -1,9 +1,9 @@
 import React from 'react';
-import { Banner, BannerSection, BottomStroke, TopStroke } from './first-banner.styles';
-import { SecondaryButton } from '../button/button.styles';
+import { BannerSection, Banner, TopStroke, BottomStroke, FaqSection } from "./second-banner.styles";
+import { PrimaryButton } from '../button/button.styles';
 import { motion } from 'framer-motion';
 
-const FirstBanner = () => {
+const SecondBanner = () => {
   return (
     <BannerSection>
         <Banner>
@@ -11,17 +11,23 @@ const FirstBanner = () => {
             <motion.p initial={{opacity: 0, y: 15}} whileInView={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.2}} >With Search Engine Optimization, we aim to programmatically place you on the top results on google for search queries relating to your niche, service or product. </motion.p>
             <motion.p initial={{opacity: 0, y: 15}} whileInView={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.2}}>According to google themselves, the first page of search results gets 99% of all the traffic.</motion.p>
             <motion.span initial={{opacity: 0, y: 15}} whileInView={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.2}}>
-                <SecondaryButton href="/">Get Started</SecondaryButton>
+                <PrimaryButton href="/">Get Started</PrimaryButton>
             </motion.span>
             <TopStroke>
-                <motion.img src="/first-banner-stroke.svg" alt="" initial={{scale: 0}} whileInView={{scale: 1}} transition={{duration: 0.5, delay: 0.1}}/>
+                <motion.img src="/last-banner-dark.svg" alt="" initial={{scale: 0}} whileInView={{scale: 1}} transition={{duration: 0.5, delay: 0.1}}/>
             </TopStroke>
             <BottomStroke>
-                <motion.img src="/first-banner-stroke.svg" alt="" initial={{scale: 0}} whileInView={{scale: 1}} transition={{duration: 0.5, delay: 0.1}}/>
+                <motion.img src="/last-banner-white.svg" alt="" initial={{scale: 0}} whileInView={{scale: 1}} transition={{duration: 0.5, delay: 0.1}}/>
             </BottomStroke>
         </Banner>
+        <FaqSection>
+            <h1>HELLO</h1>
+            <h1>HELLO</h1>
+            <h1>HELLO</h1>
+            <h1>HELLO</h1>
+        </FaqSection>
     </BannerSection>
-    )
+  )
 }
 
-export default FirstBanner
+export default SecondBanner

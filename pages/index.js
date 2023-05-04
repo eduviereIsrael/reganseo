@@ -3,10 +3,14 @@ import Image from 'next/image';
 import Hero from '../components/hero/hero.component';
 import Problems from '../components/problems/problems.component';
 import FirstBanner from '../components/first-banner/first-banner.component';
+import Testimonial from '../components/testimonial/testimonial.component';
+import SecondBanner from '../components/second-banner/second-banner.component';
 // import {CaseStudy, Hero, Services, ImageSection, About} from "../section"
+import { THEME } from '../styles/theme/theme';
 
 
 export default function Home() {
+
   return (
     <div className='app'>
       <Head>
@@ -19,6 +23,10 @@ export default function Home() {
         <Hero />
         <Problems />
         <FirstBanner />
+        <Testimonial />
+        <div style={{backgroundColor: THEME.colors.light1}}>
+        <SecondBanner />
+        </div>
       </main>
 
     </div>

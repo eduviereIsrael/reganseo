@@ -108,6 +108,10 @@ export const OuterButtonBorder = styled.div`
 
     /* transform: rotate(3600deg); */
 
+    &:focus{
+        outline: none;
+    }
+
 `
 
 export const Button = styled.div`

@@ -42,6 +42,10 @@ export const ServicesHead = styled.div`
     &:hover{
         cursor: pointer;
     }
+    
+    &:focus{
+        outline: none;
+    }
 `;
 
 export const ImageContainer = styled.div`

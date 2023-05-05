@@ -20,12 +20,7 @@ const SecondBanner = () => {
                 <motion.img src="/last-banner-white.svg" alt="" initial={{scale: 0}} whileInView={{scale: 1}} transition={{duration: 0.5, delay: 0.1}}/>
             </BottomStroke>
         </Banner>
-        <FaqSection>
-            <h1>HELLO</h1>
-            <h1>HELLO</h1>
-            <h1>HELLO</h1>
-            <h1>HELLO</h1>
-        </FaqSection>
+
     </BannerSection>
   )
 }

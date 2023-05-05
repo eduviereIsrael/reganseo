@@ -45,6 +45,7 @@ export const ServicesHead = styled.div`
     
     &:focus{
         outline: none;
+        background: none;
     }
 `;
 

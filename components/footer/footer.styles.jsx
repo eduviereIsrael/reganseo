@@ -110,6 +110,8 @@ export const OuterButtonBorder = styled.div`
 
     &:focus{
         outline: none;
+        background: none;
+
     }
 
 `

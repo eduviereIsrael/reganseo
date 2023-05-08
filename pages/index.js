@@ -7,9 +7,15 @@ import Testimonial from '../components/testimonial/testimonial.component';
 import SecondBanner from '../components/second-banner/second-banner.component';
 // import {CaseStudy, Hero, Services, ImageSection, About} from "../section"
 import { THEME } from '../styles/theme/theme';
+import ReactGA from "react-ga"
 
 
 export default function Home() {
+
+  
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname);
+  },[]);
 
   return (
     <div className='app'>

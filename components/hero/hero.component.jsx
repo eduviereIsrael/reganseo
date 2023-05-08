@@ -19,7 +19,7 @@ const Hero = () => {
             </SubText>
             <MainText>
                 <h1>SKY-ROCKET YOUR WEBSITE TRAFFIC WITH OUR PROVEN SEO-STRATEGIES</h1>
-                <PrimaryButton href="" >Get Started</PrimaryButton>
+                <PrimaryButton href="#contact" scroll={false} >Get Started</PrimaryButton>
             </MainText>
         </Intro>
         <HeroSkew>

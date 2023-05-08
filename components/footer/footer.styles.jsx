@@ -39,6 +39,9 @@ export const FooterIntro = styled.div`
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    h1{
+        margin-bottom: 15px;
+    }
 `;
 
 export const ContactDiv = styled.div`

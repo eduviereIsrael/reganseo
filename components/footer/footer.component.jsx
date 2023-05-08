@@ -118,7 +118,7 @@ const Footer = () => {
   return (
     <FooterContainer>
         <FooterDiv>
-            <FooterIntro>
+            <FooterIntro id='contact'>
                 <h1>GET IN TOUCH</h1>
                 <p>What areas of your business can we improve for you to see increase in your profits?</p>
             </FooterIntro>
@@ -165,9 +165,9 @@ const Footer = () => {
             <FooterLinksDiv>
               <div>
                 <h3>Find us on</h3>
-                <FooterLink href={'/'} >WHATSAPP</FooterLink>
-                <FooterLink href={'/'} >INSTAGRAM</FooterLink>
-                <FooterLink href={'/'} >TWITTER</FooterLink>
+                <FooterLink href={'https://wa.me/message/IMBN57OCXNFTF1'} >WHATSAPP</FooterLink>
+                <FooterLink href={'https://instagram.com/eduviere_israel?igshid=NTc4MTIwNjQ2YQ=='} >INSTAGRAM</FooterLink>
+                <FooterLink href={'https://instagram.com/eduviere_israel?igshid=NTc4MTIwNjQ2YQ=='} >TWITTER</FooterLink>
               </div>
             </FooterLinksDiv>
         </FooterDiv>

@@ -20,7 +20,7 @@ const Navbar = () => {
           </Link>
         </LogoDiv>
 
-          <PrimaryButton href="/" >Get Started</PrimaryButton>
+          <PrimaryButton href="#contact" scroll={false} >Get Started</PrimaryButton>
         
       </NavbarContainer>
     </NavbarDiv>

@@ -37,15 +37,12 @@ const Services = () => {
         switch (index){
             case 0:
                 setIndex(1);
-                console.log(index);
                 return
             case 1:
                 setIndex(2);
-                console.log(index);
                 return
             case 2:
                 setIndex(0)
-                console.log(index);
                 return
             default:
                 setIndex(0);

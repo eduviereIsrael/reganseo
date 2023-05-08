@@ -17,7 +17,7 @@ export const NavbarContainer = styled.div`
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
-    border-bottom: 1px solid ${THEME.colors.light1};
+    border-bottom: 1px solid ${THEME.colors.light3};
 `;
 
 export const LogoDiv = styled.div`

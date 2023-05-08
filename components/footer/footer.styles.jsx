@@ -1,5 +1,7 @@
 import styled from "styled-components";
 import { THEME } from "../../styles/theme/theme";
+import Link from 'next/link';
+
 
 export const FooterContainer = styled.div`
     width: 100%;
@@ -8,6 +10,10 @@ export const FooterContainer = styled.div`
     z-index: 2;
 
     h1{
+        color: ${THEME.colors.dark1};
+    }
+
+    h3{
         color: ${THEME.colors.dark1};
     }
 
@@ -128,5 +134,52 @@ export const Button = styled.div`
     left: 4.5px;
     top: 4.5px;
     z-index: 2;
+`;
+
+export const FooterLink = styled(Link)`
+    color: ${THEME.colors.dark1};
+    text-decoration: none;
+    transition: all .5s ease;
+    font-size: ${THEME.font.link};
+
+    &:hover{
+        text-decoration: underline;
+    }
+`;
+
+export const FooterLinksDiv = styled.div`
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: fs;
+    align-items: flex-end;
+    padding-top: 80px;
+
+    h3{
+        justify-self: flex-start;
+    }
+
+    div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 12px;
+        border-bottom: 1px solid ${THEME.colors.dark1};
+        padding-bottom: 40px;
+
+        @media screen and (min-width: 768px){
+            /* width: 30%; */
+            align-items: center;
+            flex-direction: row;
+            justify-content: center;
+            gap: 20px;
+
+            h3{
+                margin-right: auto;
+            }
+        }
+    }
 `
 

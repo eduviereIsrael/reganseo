@@ -41,6 +41,7 @@ export const FooterIntro = styled.div`
     align-items: flex-start;
     h1{
         margin-bottom: 15px;
+        text-decoration: none;
     }
 `;
 

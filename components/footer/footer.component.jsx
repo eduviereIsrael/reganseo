@@ -65,7 +65,7 @@ const Footer = () => {
     try{
         setSending(true);
         setButtonCta(buttonText.SENDING);
-        emailjs.send('service_hnraoev', 'template_54wq71r', formValues, 'USXynhiyjrRti7R1V')
+        emailjs.send('service_s49fc63', 'template_54wq71r', formValues, 'N_h22gAYodfu_72dU')
         .then(function(response) {
             setSending(false)
             toast.success("We will contact you shortly", {
@@ -123,7 +123,6 @@ const Footer = () => {
                 <p>What areas of your business can we improve for you to see increase in your profits?</p>
             </FooterIntro>
             <ContactDiv>
-
               <FooterForm action="#">
                 <input 
                   type="text" 

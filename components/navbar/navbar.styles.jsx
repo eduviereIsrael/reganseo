@@ -4,6 +4,7 @@ import { THEME } from "../../styles/theme/theme";
 export const NavbarDiv = styled.div`
     width: 100%;
     padding: 0px 20px;
+    background-color: ${THEME.colors.dark1};
 
     @media screen and (min-width: 768px){
       padding: 0px 100px;

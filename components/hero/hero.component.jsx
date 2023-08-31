@@ -18,7 +18,7 @@ const Hero = () => {
                 <p>RE-STRATEGIZE</p>
             </SubText>
             <MainText>
-                <h1>SKY-ROCKET YOUR WEBSITE TRAFFIC WITH OUR PROVEN SEO-STRATEGIES</h1>
+                <h1>SKY-ROCKE YOUR WEBSITE TRAFFIC WITH OUR PROVEN SEO-STRATEGIES</h1>
                 <PrimaryButton href="#contact" scroll={false} >Get Started</PrimaryButton>
             </MainText>
         </Intro>
